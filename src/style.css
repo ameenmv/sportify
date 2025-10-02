@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import "./normalize.css";
+
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+:root {
+  --blue: #0c1944;
+  --red: #e43a19;
+  --white: #f2f4f7;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+}
+
+.containerr {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+  .containerr {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .containerr {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .containerr {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .containerr {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .containerr {
+    max-width: 1320px;
+  }
+}
