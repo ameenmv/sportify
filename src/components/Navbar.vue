@@ -1,12 +1,14 @@
 <template>
   <div class="text-[white] py-5 bg-[var(--blue)]">
     <div class="containerr flex justify-between items-center">
-      <div class="right flex items-center justify-center gap-10 z-4">
-        <img class="w-[70px] h-[50px]" src="../assets/logo.png" alt="" />
-        <p class="font-normal text-[18px] cursor-pointer">الرئيسية</p>
-        <p class="font-normal text-[18px] cursor-pointer">الأقسام</p>
-        <p class="font-normal text-[18px] cursor-pointer">جميع المنتجات</p>
-        <p class="font-normal text-[18px] cursor-pointer">التخفيضات</p>
+      <div class="right flex items-center justify-center gap-10 z-16">
+        <img class="w-[70px] h-[50px] logo" src="../assets/logo.png" alt="" />
+        <p class="font-normal textt text-[18px] cursor-pointer">الرئيسية</p>
+        <p class="font-normal textt text-[18px] cursor-pointer">الأقسام</p>
+        <p class="font-normal textt text-[18px] cursor-pointer">
+          جميع المنتجات
+        </p>
+        <p class="font-normal textt text-[18px] cursor-pointer">التخفيضات</p>
       </div>
       <div class="left flex justify-center items-center gap-4">
         <div
@@ -71,6 +73,16 @@
           </div>
         </div>
       </div>
+      <div class="flex gap-1 hidden">
+        <div class="flex flex-col gap-1">
+          <div class="w-[10px] h-[10px] bg-[white] rounded-[2px]"></div>
+          <div class="w-[10px] h-[10px] bg-[white] rounded-[2px]"></div>
+        </div>
+        <div class="flex flex-col gap-1">
+          <div class="w-[10px] h-[10px] bg-[white] rounded-[2px]"></div>
+          <div class="w-[10px] h-[10px] bg-[white] rounded-[2px]"></div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -79,4 +91,18 @@
 export default {};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@media (max-width: 991px) {
+  .textt,
+  .left {
+    display: none;
+  }
+  .hidden {
+    display: flex !important;
+  }
+  .logo {
+    width: 45px;
+    height: 35px;
+  }
+}
+</style>
