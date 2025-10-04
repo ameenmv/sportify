@@ -17,17 +17,17 @@
           </p>
           <img
             class="absolute bottom-[-15px] right-[-25px]"
-            src="../assets/vector1.png"
+            src="/vector1.png"
             alt=""
           />
           <img
             class="absolute top-[-15px] left-[-25px]"
-            src="../assets/vector4.png"
+            src="/vector4.png"
             alt=""
           />
           <img
             class="absolute bottom-[0px] right-[5px]"
-            src="../assets/vector3.png"
+            src="/vector3.png"
             alt=""
           />
         </div>
